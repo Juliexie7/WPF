@@ -1,0 +1,50 @@
+﻿<Window x:Class="Todo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Todo"
+        mc:Ignorable="d"
+        Title="Todo" Height="450" Width="700">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="0.5*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <ListView Grid.Row="0" Grid.Column="0" x:Name="lvTodo" SelectionChanged="lvTodo_SelectionChanged" SelectionMode="Single" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Task" Width="200" DisplayMemberBinding="{Binding Task}" />
+                    <GridViewColumn Header="Due Date" Width="100" DisplayMemberBinding="{Binding Due}" />
+                    <GridViewColumn Header="Difficulty" Width="70" DisplayMemberBinding="{Binding Difficulty}" />
+                    <GridViewColumn Header="Status" Width="90" DisplayMemberBinding="{Binding Status}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <Label FontSize="15" FontWeight="Medium" Margin="0 10">Task</Label>
+            <Label FontSize="15" FontWeight="Medium" Margin="0 10">Difficulty</Label>
+            <Label FontSize="15" FontWeight="Medium" Margin="0 10">Due Date</Label>
+            <Label FontSize="15" FontWeight="Medium" Margin="0 10">Status</Label>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="2">
+            <TextBox Margin="0 18 20 10" Name="textTask"></TextBox>
+            <Slider Margin="0 20 20 10" HorizontalAlignment="Left" Width="135" />
+            <DatePicker Margin="0 20 20 10"/>
+            <ComboBox Margin="0 18 20 10" Width="135" HorizontalAlignment="Left" />
+
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal">
+            <Button Margin="150 7 20 7" Padding="20 0" Height="25" Click="Button_Click_3">Export all to File ...</Button>
+            <Button Margin="20 7" Padding="20 0" Height="25" Click="Button_Click" Name="btnAdd">Add</Button>
+            <Button Margin="20 7" Padding="20 0" Height="25" Click="Button_Click_1" Name="btnDelete" IsEnabled="False">Delete</Button>
+            <Button Margin="20 7" Padding="20 0" Height="25" Click="Button_Click_2" Name="btnUpdate" IsEnabled="False">Update</Button>
+        </StackPanel>
+    </Grid>
+</Window>

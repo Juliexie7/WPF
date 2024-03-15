@@ -1,0 +1,4 @@
+Acura;6.1;Gasoline
+Toyota;6.4;Diesel
+Honda;9.8;Diesel
+Porche1;17.4;Hybrid

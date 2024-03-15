@@ -1,0 +1,33 @@
+﻿<Window x:Class="CarDB.CarsDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarDB"
+        mc:Ignorable="d"
+        Title="CarsDialog" Height="350" Width="510">
+    <Grid>
+        <StackPanel Orientation="Horizontal" Margin="20 30">
+            <ListView Name="lvCar" Width="250" SelectionMode="Single" SelectionChanged="lvCar_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="#" DisplayMemberBinding="{Binding Id}"></GridViewColumn>
+                        <GridViewColumn Header="Make &amp; Model" Width="140" DisplayMemberBinding="{Binding MakeModel}"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Grid Width="200">
+                <Button Content="Done" Name="btnDone" Click="btnDone_Click" Height="25" VerticalAlignment="Top" Margin="30 0 0 0"></Button>
+                <Label Content="Owner name: " Margin="30 30 0 0"></Label>
+                <TextBlock Name="ownerName" Height="20" VerticalAlignment="Top" Margin="110 34 0 0"/>
+                <Label Content="Id:" Margin="30 60 0 0"></Label>
+                <TextBlock Name="carId" Height="20" VerticalAlignment="Top" Margin="60 64 0 0"/>
+                <Label Content="Make &amp; Model:" Margin="30 90 0 0"></Label>
+                <TextBox Name="makeModel" Height="20" VerticalAlignment="Top" Margin="30 120 0 0"></TextBox>
+                <Button Content="Add" Name="btnAdd" Height="25" Click="btnAdd_Click" Width="50" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="30 0 0 40"></Button>
+                <Button Content="Update" Name="btnUpdate" Click="btnUpdate_Click" IsEnabled="False" Height="25" Width="50" VerticalAlignment="Bottom" Margin="30 0 0 40"></Button>
+                <Button Content="Delete" Name="btnDelete" Click="btnDelete_Click" IsEnabled="False" Height="25" Width="50" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="30 0 0 40"></Button>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>

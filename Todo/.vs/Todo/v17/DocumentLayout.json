@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\13 Application1\\wpfgit\\Todo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E86442B-583E-4A94-B91C-1842D1FE7EE9}|Todo.csproj|d:\\13 application1\\wpfgit\\todo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3E86442B-583E-4A94-B91C-1842D1FE7EE9}|Todo.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E86442B-583E-4A94-B91C-1842D1FE7EE9}|Todo.csproj|D:\\13 Application1\\wpfgit\\Todo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E86442B-583E-4A94-B91C-1842D1FE7EE9}|Todo.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E86442B-583E-4A94-B91C-1842D1FE7EE9}|Todo.csproj|D:\\13 Application1\\wpfgit\\Todo\\exported_file.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E86442B-583E-4A94-B91C-1842D1FE7EE9}|Todo.csproj|solutionrelative:exported_file.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E86442B-583E-4A94-B91C-1842D1FE7EE9}|Todo.csproj|D:\\13 Application1\\wpfgit\\Todo\\todoinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E86442B-583E-4A94-B91C-1842D1FE7EE9}|Todo.csproj|solutionrelative:todoinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "exported_file.txt",
+              "DocumentMoniker": "D:\\13 Application1\\wpfgit\\Todo\\exported_file.txt",
+              "RelativeDocumentMoniker": "exported_file.txt",
+              "ToolTip": "D:\\13 Application1\\wpfgit\\Todo\\exported_file.txt",
+              "RelativeToolTip": "exported_file.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-15T05:23:26.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoInfo.cs",
+              "DocumentMoniker": "D:\\13 Application1\\wpfgit\\Todo\\TodoInfo.cs",
+              "RelativeDocumentMoniker": "TodoInfo.cs",
+              "ToolTip": "D:\\13 Application1\\wpfgit\\Todo\\TodoInfo.cs",
+              "RelativeToolTip": "TodoInfo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T05:23:26.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\13 Application1\\wpfgit\\Todo\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\13 Application1\\wpfgit\\Todo\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-15T05:23:26.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\13 Application1\\wpfgit\\Todo\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\13 Application1\\wpfgit\\Todo\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T05:23:26.413Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

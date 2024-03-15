@@ -1,0 +1,24 @@
+﻿<Window x:Class="Sandwitch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sandwitch"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid>
+        <Grid Margin="20">
+            <StackPanel>
+                <Button Width="100" HorizontalAlignment="Left" Click="Button_Click" >Make a Sandwitch</Button>
+                <Label Content="Bread" Margin="0 20 0 0"></Label>
+                <Label Content="Veggis" Margin="0 10"></Label>
+                <Label Content="Meat"></Label>
+            </StackPanel>
+            <StackPanel Margin="150 50 0 0">
+                <TextBlock x:Name="bread"></TextBlock>
+                <TextBlock x:Name="veggis" Margin="0 19"></TextBlock>
+                <TextBlock x:Name="meat"></TextBlock>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

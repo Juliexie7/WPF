@@ -1,0 +1,54 @@
+﻿<Window x:Class="MidExam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MidExam"
+        mc:Ignorable="d"
+        Title="Travel" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="1.3*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Margin="30">
+            <Button Name="btnSaveToFile" MaxWidth="180" Margin="0 0 0 5" Padding="40 0" HorizontalAlignment="Left" Click="btnSaveToFile_Click">Save Selected</Button>
+            <ListView Name="lvList" HorizontalAlignment="Left" Height="300"
+                  VerticalAlignment="Top" Width="480" SelectionChanged="lvList_SelectionChanged" SelectionMode="Single">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Destination" DisplayMemberBinding="{Binding Destination}"></GridViewColumn>
+                        <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"></GridViewColumn>
+                        <GridViewColumn Header="Passport" DisplayMemberBinding="{Binding Passport}"></GridViewColumn>
+                        <GridViewColumn Header="Departure" DisplayMemberBinding="{Binding DepartureDt}"></GridViewColumn>
+                        <GridViewColumn Header="Return" DisplayMemberBinding="{Binding ReturnDt}"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="0 50 30 30" >
+            <StackPanel Orientation="Horizontal">
+                <StackPanel>
+                    <Label Content="Destination" Margin="0 10"></Label>
+                    <Label Content="Name" Margin="0 10"></Label>
+                    <Label Content="Passport" Margin="0 10"></Label>
+                    <Label Content="Departure" Margin="0 10"></Label>
+                    <Label Content="Return" Margin="0 10"></Label>
+                </StackPanel>
+                <StackPanel>
+                    <TextBox Name="txtDestination" PreviewTextInput="ValidationTextBox" Width="120" Height="20" Margin="0 13"></TextBox>
+                    <TextBox Name="txtName" PreviewTextInput="ValidationTextBox" Width="120" Height="20" Margin="0 13"></TextBox>
+                    <TextBox Name="txtPassport" PreviewTextInput="ValidationTextBox" Width="120" Height="20" Margin="0 13"></TextBox>
+                    <DatePicker Name="dpDeparture" Margin="0 11" ></DatePicker>
+                    <DatePicker Name="dpReturn" Margin="0 11"></DatePicker>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Column="1"  Orientation="Horizontal" Margin="0 15">
+                <Button x:Name="btnAdd" Content="Add" MinWidth="35" Click="btnAdd_Click" ></Button>
+                <Button x:Name="btnDelete" IsEnabled="False" Content="Delete Trip" Margin="20 0" Click="btnDelete_Click"></Button>
+                <Button x:Name="btnUpdate" IsEnabled="False" Content="UpdateTrip" Click="btnUpdate_Click"></Button>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

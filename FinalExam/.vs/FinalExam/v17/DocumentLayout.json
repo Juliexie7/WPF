@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\13 Application1\\practice\\FinalExam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2924555C-7C2A-4D91-B8B5-57A350E86BE7}|FinalExam.csproj|d:\\13 application1\\practice\\finalexam\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2924555C-7C2A-4D91-B8B5-57A350E86BE7}|FinalExam.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2924555C-7C2A-4D91-B8B5-57A350E86BE7}|FinalExam.csproj|D:\\13 Application1\\practice\\FinalExam\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2924555C-7C2A-4D91-B8B5-57A350E86BE7}|FinalExam.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2924555C-7C2A-4D91-B8B5-57A350E86BE7}|FinalExam.csproj|D:\\13 Application1\\practice\\FinalExam\\passport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2924555C-7C2A-4D91-B8B5-57A350E86BE7}|FinalExam.csproj|solutionrelative:passport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Passport.cs",
+              "DocumentMoniker": "D:\\13 Application1\\practice\\FinalExam\\Passport.cs",
+              "RelativeDocumentMoniker": "Passport.cs",
+              "ToolTip": "D:\\13 Application1\\practice\\FinalExam\\Passport.cs",
+              "RelativeToolTip": "Passport.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwCAAAAAcAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPBSURBVEhL7VRNbBNXEJ798a6x4rUwsRNCUqTaB2REEUgVFVWlVVUJ9cKB4q24VeoBIQ5FcEAQVWoOvaWuOCSHgoTKCW1yqFREG4sEIyVyiQKoCikQ1mkcWybOgmNvnJ\u002B1vfs6s4QcUCu11yqftfu8u9/MvDff9x5s4/8PbnOE2dlZuSbXuqfyU/Lo81EwFg2oN\u002BogSRLEw3EazeEvh03ilqxSZKGyELn8y2XA0bydvG2FoqHua1PX5OvZ6zYoUDS\u002BMmzi8nQjUHKRiSnGmA4MdBBB50RO5zhO53le93G\u002B5CYV/K4/iVxdcAUdWpCk5AIIKdEVdfycYhXW85q5uYLpwrT6wnpx8v7Cfc2sm5G6XYeQPwSSKIHIi96FzL7TH50eoORpI518WHio3jHuwPLacmZPaM\u002BM\u002Bq6qPTWfRh4UH5g8xw8hfyj3dS6DkQAv6y/Vylrl7Pif49Amt8HBzoP2oe5DxWhb1OaQWbSKsNHcMANuQHF451ipVto/kZ\u002BAFXsFXObuL1vlnru5u8pqcxWwAwrj2DGM\u002BwNTZwQqEP0kqs5X5lWaOc4EThw4kQ9IgfOtVusHbNdQtVEd4nhu8vDew2Z9o/5be6BdSXQk3p8pz1CRH0\u002B9d2rwzIdnPnBcJ/xk6Ukek5/nBG6kMlZZ81bwuPQYJJ8EXUoXBHyBTGewcxhnklUUxRP1DT7HH8J4VXtlOswBWZABNTLPfXzOwInYE/MT9Gzj/5zRa3ixnsjUguX1Zdit7Ib15vq9YDA48HZyAjmtXC3HCtVCe7FaBNvBXIy1X8lciT0zn8nYZnqWkRqLfxuPUIxXoOW2wHVdQLe8FvQf8MYtY8aY1n\u002BvH9AYgG3Rbv5\u002BM3Xx54s96dk05elmwL4jd1GMVwDF9MQtr5RhrjJHr/4WKLDFAz/SFeqaObr3qBeDjpnpCHaMqDHViu2KUYss1CDNeEYio9sR\u002B6L7gHpKy6YlX/rpUuLIO0cg3BaGRqMB\u002BXqeNp2JGlHbBs2qyeHmiz4qPYLaRm341he3fsXiPVezV\u002BP4Loez/z7XlzO2ChxPHIel1SW4MXWDWqSh9VRqF8/wEvByeZBAGqTkxJd5WXccJ0Pf0V1LqJdlWuYFcEHG5DYX5grEI3gbLfs8qy6uLJ7M5rNadb0aaTpN2BnYCX7RDz7B5204dEZf76e933hR/wFbZ9Ho9GiMCSw1uTAZH58bByyIORmEdoQgEU2QfQf7P\u002Bsf2KT/a2ydRbZsF9FNF3DZGjkDNaFWaVyL03Dpmm\u002BHj86ZbWzjbQD8BfQkxxdaIgF3AAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-02-28T15:07:38.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\13 Application1\\practice\\FinalExam\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\13 Application1\\practice\\FinalExam\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-28T14:27:20.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\13 Application1\\practice\\FinalExam\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\13 Application1\\practice\\FinalExam\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAAwJsAAAANAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKvSURBVEhL7ZXPTxNREMe/225/LbVdt11AtNAUwUQDoqQcMJE9mXDiYrgYj6QmHv0DqAcPHtQDMVw4cBUOxoMkJJLUhAQlxgvVhFAtCcSUruVXS8Km3V3fPh4VXJQfUU98ksnuvpk382Z2d4bDLzx6OZ/0uhyDMdkHL8897O08n2SqE\u002BFg1yoNohuC24m38\u002BuYzRZ7Xn9Yvj/x8ZvM1MeGx503l9k9ZWWzHDZMDpPpNVyN1CjRkCdyrsZcGh4ezkxNTTGrHTweD7q6utDd3a0Fg8Hl1tZWjamq8OCMMXZPeTyxVCt4eBRKZWgVE4auX7h3I/DE4XBoRJgVwHE71eV5Hk6n80uxWHxAHjN0cQ8c7k7uq/HNS2KPJPDKu6\u002BbaKn14daVIPra/FjPZZHJ/NxfKpUwNzcHSZIQi8XU5ubmcZLFeDweTzETiu0lv3q/lPxeqgy\u002BmFVxvcmPvmsSmiRySuioVCrMipRyZQWjo6PI5/M0iKIoCIVCzwOBwLO95bK95Ex\u002BG0VNx\u002B24jN42kTqHUYGu68xiP4ZhYGNjA6lUCgsLC/2kXE9JuSJMbQ8QEw20SEBnow\u002BNZ3dODtOAaZrMwk65XMbq6iqy2aw8MzNzkYiHqewBwsij1rmGhjMmBJdJy3KQc3JShMNh1NXVUZFlmQYhzjE9Pc2siB27VhFFUcnlckokEoHX62WrdtxuN6LRKNrb29HR0UFF0zQsLi6q5AsbT6fTqmVny4A4h6qqNO0/lcX6PK0M6uvrq\u002BL3\u002B\u002Bkea\u002B8utgBWSX5XlpNgC/C3OQ1wKKcBDuX/B7D\u002BUOsnKxQKtCUfR7a2tmANJZfLxbwdMA8GBgaSxGjQ6jW7U\u002BuoWB2AtInP5ID9IyMjn6w1m4dEIqGQHq9YE2vvgDkKgiDA5/OpJIOxoaEh2uz\u002BMcAPkFkfhKsBGPMAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-02-28T14:27:20.423Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+D:\13 Application1\practice\MidExam\obj\Debug\MidExam.csproj.AssemblyReference.cache
+D:\13 Application1\practice\MidExam\obj\Debug\MainWindow.g.cs
+D:\13 Application1\practice\MidExam\obj\Debug\App.g.cs
+D:\13 Application1\practice\MidExam\obj\Debug\MidExam_MarkupCompile.cache
+D:\13 Application1\practice\MidExam\obj\Debug\MidExam_MarkupCompile.lref
+D:\13 Application1\practice\MidExam\bin\Debug\MidExam.exe.config
+D:\13 Application1\practice\MidExam\bin\Debug\MidExam.exe
+D:\13 Application1\practice\MidExam\bin\Debug\MidExam.pdb
+D:\13 Application1\practice\MidExam\obj\Debug\MainWindow.baml
+D:\13 Application1\practice\MidExam\obj\Debug\MidExam.g.resources
+D:\13 Application1\practice\MidExam\obj\Debug\MidExam.Properties.Resources.resources
+D:\13 Application1\practice\MidExam\obj\Debug\MidExam.csproj.GenerateResource.cache
+D:\13 Application1\practice\MidExam\obj\Debug\MidExam.csproj.CoreCompileInputs.cache
+D:\13 Application1\practice\MidExam\obj\Debug\MidExam.exe
+D:\13 Application1\practice\MidExam\obj\Debug\MidExam.pdb

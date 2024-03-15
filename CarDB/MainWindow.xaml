@@ -1,0 +1,46 @@
+﻿<Window x:Class="CarDB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarDB"
+        mc:Ignorable="d"
+        Title="CarsOwnersEF" Height="450" Width="610">
+    <Grid>
+        <StackPanel Orientation="Horizontal" Margin="20 30">
+            <ListView Name="lvOwner" Width="350" SelectionMode="Single" SelectionChanged="lvOwner_SelectionChanged" >
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="#" DisplayMemberBinding="{Binding Id}"></GridViewColumn>
+                        <GridViewColumn Header="Name" Width="140" DisplayMemberBinding="{Binding Name}"></GridViewColumn>
+                        <GridViewColumn Header="Car #" Width="100" DisplayMemberBinding="{Binding CarNo}"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Grid Width="200">
+                <Label Content="Id:" Margin="30 30 0 0"></Label>
+                <TextBlock Name="ownerId" Height="20" VerticalAlignment="Top" Margin="60 30 0 0"/>
+                <Label Content="Name: " Margin="30 60 0 0"></Label>
+                <TextBox Name="ownerName" Height="20" VerticalAlignment="Top" Margin="80 64 0 0"></TextBox>
+                <Button Height="170" Margin="30 0 0 0" Click="Button_Click">
+                    <Image Name="ownerPhoto" Height="170" Source="myImage.png" />
+                </Button>
+                <!--https://stackoverflow.com/questions/7888231/efficiently-display-text-on-image-in-wpf-->
+                <!--<Grid Height="170" Margin="30 0 0 0">
+                    <Image Name="ownerPhoto" Height="170" MouseDown="ownerPhoto_MouseDown"/>
+                    <TextBlock Text="Click to pick picture" 
+                             HorizontalAlignment="Center" 
+                             VerticalAlignment="Center">
+                        <TextBlock.Effect>
+                            <DropShadowEffect ShadowDepth="0" Color="Blue" BlurRadius="10" />
+                        </TextBlock.Effect>
+                    </TextBlock>
+                </Grid>-->
+                <Button Content="Add" Name="btnAdd" Height="25" Click="btnAdd_Click" Width="50" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="30 0 0 40"></Button>
+                <Button Content="Update" Name="btnUpdate" Click="btnUpdate_Click" IsEnabled="False" Height="25" Width="50" VerticalAlignment="Bottom" Margin="30 0 0 40"></Button>
+                <Button Content="Delete" Name="btnDelete" Click="btnDelete_Click" IsEnabled="False" Height="25" Width="50" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="30 0 0 40"></Button>
+                <Button Content="Manage cars" Name="btnMCar" Click="btnMCar_Click" IsEnabled="False" Height="25" VerticalAlignment="Bottom" Margin="30 0 0 0"></Button>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>

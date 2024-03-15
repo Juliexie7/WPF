@@ -1,0 +1,62 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d" FontSize="18"
+        Title="TempConv" Height="300" Width="500">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0" Margin="0 10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Margin="0 0 10 0">Input</Label>
+            <TextBox Grid.Row="0" Grid.Column="1" Name="myTextBox" MaxLength="6" Width="80" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Text="0.00" GotFocus="myTextBox_GotFocus" TextChanged="myTextBox_TextChanged"/>
+            
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Text="Input Scale" Margin="0 20"/>
+            <RadioButton Grid.Row="1" Grid.Column="0" GroupName="Group1" Name="Celcius1" Content="Celcius" HorizontalAlignment="Left" VerticalContentAlignment="Center" IsChecked="True" Checked="OnRadioButtonChecked"/>
+            <RadioButton Grid.Row="2" Grid.Column="0" GroupName="Group1" Name="Farenheit1" Content="Farenheit" HorizontalAlignment="Left" VerticalContentAlignment="Center" Checked="OnRadioButtonChecked"/>
+            <RadioButton Grid.Row="3" Grid.Column="0" GroupName="Group1" Name="Kelvin1" Content="Kelvin" HorizontalAlignment="Left" VerticalContentAlignment="Center" Checked="OnRadioButtonChecked"/>
+
+            <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Text="Output Scale" Margin="0 20"/>
+            <RadioButton Grid.Row="1" Grid.Column="1" GroupName="Group2" Name="Celcius2" Content="Celcius" HorizontalAlignment="Left" VerticalContentAlignment="Center" Checked="OnRadioButtonChecked"/>
+            <RadioButton Grid.Row="2" Grid.Column="1" GroupName="Group2" Name="Farenheit2" Content="Farenheit" HorizontalAlignment="Left" VerticalContentAlignment="Center" IsChecked="True" Checked="OnRadioButtonChecked"/>
+            <RadioButton Grid.Row="3" Grid.Column="1" GroupName="Group2" Name="Kelvin2" Content="Kelvin" HorizontalAlignment="Left" VerticalContentAlignment="Center" Checked="OnRadioButtonChecked"/>
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text ="Output" HorizontalAlignment="Right" Margin="10 20"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" Name="myOutput" HorizontalAlignment="Left" Margin="10 20"/>
+        </Grid>
+
+    </Grid>
+</Window>

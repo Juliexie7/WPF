@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\13 Application1\\wpfgit\\Tempconvert\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73D7029F-358C-48E9-ADA1-AF147FF5CFFA}|WpfApp1.csproj|d:\\13 application1\\wpfgit\\tempconvert\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{73D7029F-358C-48E9-ADA1-AF147FF5CFFA}|WpfApp1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73D7029F-358C-48E9-ADA1-AF147FF5CFFA}|WpfApp1.csproj|D:\\13 Application1\\wpfgit\\Tempconvert\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73D7029F-358C-48E9-ADA1-AF147FF5CFFA}|WpfApp1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\13 Application1\\wpfgit\\Tempconvert\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\13 Application1\\practice\\WpfApp1\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "..\\..\\practice\\WpfApp1\\MainWindow.xaml.cs*",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAwAAAAjAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAICSURBVDhP3VNNaxNRFD3vzeSjk0xbp3EgaQ0JSYNRIaQEg5tgXFQQsjQb9YfoJq4Ed9267s76A0JASheFCBJxoRaCkBoJaZKBpDIZkplxfG861AbsQpceGIa5591zz333DgEc8vD1Hr0TzOeogF0pINhLPvp0I\u002B68LSeTM1yA4zgghDjepwuCx/Wcjwj0QU7JJK4GXrRPptGteOjg1qrx6sP\u002B3nGv13MPxmIxFItFPR6Pfy8UCgYLuUIEjxpvuIvlJXElpvhum5Yjb2fDxr2Nqdb59G5\u002B0u9jNpshHA4jm80eqaq6M5/PDyuVisHdEDxpZLmDytbq9eRa8KWmm6n7N5aRXxdgGT/c5E6ng2azyQtOM5nMfjqd3kmlUofMjSFid/vLs5pDr91s\u002B0VK5hFZxqbqR9jPHAavuH1PJhOejMFgIImieFeSJEvX9TYLfaMug\u002BdY0Y\u002BhYoDNNZwlOz/PKAaWAFYNiUQClNJQq9VabzQafs55AsDH9wf4\u002BrkF0zhdSGZ9gvWNUqkE1jfy\u002BTxYdQyHQ5c/F\u002BC3rWkaTNP0Ir8RCAQQiUQQjUahKAp34TEXBDh4v3\u002BLBYF/wf8mwCfQZ6vb7XYvfUaj0cJli96bj0ZnZKter2t89pfBtm1YlnUUCoXcH\u002Br8ZK1WE9mqyuPxWPBCf4TMVl0QBLtcLp9Wq1X7F/CLzyTfdu4LAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-03-15T05:22:43.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\13 Application1\\wpfgit\\Tempconvert\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\13 Application1\\wpfgit\\Tempconvert\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-15T05:22:43.558Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

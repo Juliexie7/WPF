@@ -1,0 +1,15 @@
+D:\13 Application1\practice\ListViewPeople\bin\Debug\ListViewPeople.exe.config
+D:\13 Application1\practice\ListViewPeople\bin\Debug\ListViewPeople.exe
+D:\13 Application1\practice\ListViewPeople\bin\Debug\ListViewPeople.pdb
+D:\13 Application1\practice\ListViewPeople\obj\Debug\ListViewPeople.csproj.AssemblyReference.cache
+D:\13 Application1\practice\ListViewPeople\obj\Debug\MainWindow.g.cs
+D:\13 Application1\practice\ListViewPeople\obj\Debug\App.g.cs
+D:\13 Application1\practice\ListViewPeople\obj\Debug\ListViewPeople_MarkupCompile.cache
+D:\13 Application1\practice\ListViewPeople\obj\Debug\ListViewPeople_MarkupCompile.lref
+D:\13 Application1\practice\ListViewPeople\obj\Debug\MainWindow.baml
+D:\13 Application1\practice\ListViewPeople\obj\Debug\ListViewPeople.g.resources
+D:\13 Application1\practice\ListViewPeople\obj\Debug\ListViewPeople.Properties.Resources.resources
+D:\13 Application1\practice\ListViewPeople\obj\Debug\ListViewPeople.csproj.GenerateResource.cache
+D:\13 Application1\practice\ListViewPeople\obj\Debug\ListViewPeople.csproj.CoreCompileInputs.cache
+D:\13 Application1\practice\ListViewPeople\obj\Debug\ListViewPeople.exe
+D:\13 Application1\practice\ListViewPeople\obj\Debug\ListViewPeople.pdb

@@ -1,0 +1,3 @@
+﻿Buy milk;2020-02-02;5;Done
+Buy apples;2020-05-05;3;Pending
+Go Home;2020-12-12;5;Done
